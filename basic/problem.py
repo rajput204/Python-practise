@@ -35,5 +35,7 @@ print(a,b,c,sep='/')
 import calendar
 print(calendar.calendar(2024))
 
+import keyword
+print(keyword.kwlist)
 
 
