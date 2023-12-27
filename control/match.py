@@ -1,10 +1,15 @@
+
 x=int(input("enter a number"))
 match x:
     case x if x>99 and x<1000:
         print("three digit")
     case __:
         print("not three digit number")
+
+
 #to checck the positive or negative number
+
+
 x=int(input("enter the the number"))
 match x:
     case x if x>0:
@@ -15,7 +20,9 @@ match x:
         print("zero")
 print()
 print(chr(6)*10)
+
 #menu driven programm
+
 print("1.odd-even")
 print("2.positive-non_positive")
 print("3.simple_interest")
@@ -37,5 +44,28 @@ match x:
         print("real root" if d>0 else "distinct root")
     case __:
         print("select the default option")
-#
 
+
+x=eval(input("enter the desired data"))
+match x:
+    case x if type(x)==int:
+        print("monday")
+    case x if type(x)==float:
+        print("tuesday")
+    case x if type(x)==complex:
+        print("wednesday")
+    case x if type(x)==bool:
+        print("thursday")
+    case __:
+        print("invalid input")
+
+x=input("enter the string:")
+match x:
+    case x if "mysirg" in x:
+        print("one")
+    case x if "education" in x:
+        print("two")
+    case x if "services" in x:
+        print("three")
+    case __:
+        print("invalid string literal")
