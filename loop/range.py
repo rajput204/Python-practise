@@ -11,6 +11,8 @@ for e in range(1,10+1):
     print()
 print("\u2764\ufe0f"*12)
 
+
+
 #print m multiple of n
 m=int(input("enter the  time multiple  u want "))
 n=int(input("enter the number "))
@@ -25,3 +27,27 @@ for i in reversed(range(9+1)):
     print("{}*{}={}".format(n,i,n*i))
 print()
 
+n=int(input("enter a number"))
+for e in range(1,n+1):
+    print(e,end=" ")
+print()
+
+n=int(input("enetr the number"))
+for e in range(1,n+1):
+    print(2*e,end=" ")
+print( )
+
+n=int(input("enter the number"))
+for e in range(1,n+1):
+    print(2*e+1,end=" ")
+print( )
+
+n=int(input("enetr the number"))
+for e in range(1,n+1):
+    print(e*e,end=" ")
+print( )
+
+n=int(input("enetr the number"))
+for e in range(1,n+1):
+    print(e*e*e,end=" ")
+print( )
