@@ -1,4 +1,5 @@
 l=[78,45,6,12,3]
+print(sum(l))
 print(l[::1])
 
 print(l[::-1])
