@@ -18,3 +18,10 @@ min()
 t=[1,2,3,4,5]
 t.index(5)
 t.count()
+
+#it has concatination operator and repetation operator
+t1=(12,23)
+t2=(11,45,78)
+print(t*3)
+#comparison operator
+t1>t2
