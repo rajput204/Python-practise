@@ -23,5 +23,11 @@ t.count()
 t1=(12,23)
 t2=(11,45,78)
 print(t*3)
-#comparison operator
+#comparison operator   
 t1>t2
+
+#type conversion
+t=tuple(list)# it must contain any iterable
+
+#comprehension
+t=tuple([int(e)for e in input().split(',')])
