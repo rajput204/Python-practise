@@ -1,3 +1,4 @@
+#-----------------it is the documentation-------------------------
 #it is an iterable
 #it is class
 #it does not contains duplicate values
