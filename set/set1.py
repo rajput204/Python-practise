@@ -16,6 +16,36 @@ for e in s:
 print(s1)
 print(s2)
 
+s={'dhoni','anuj','virat','jadeja','gambhir'}
+for e in s:
+    for f in list(s)[1::]:
+        print(e,f)
+print( )
+
+l=list(s)
+for e in s:
+    for f in l[1::]:
+        print(e,f)
+
+print( )
+
+candidates={"arun","atishay","priyam","pankaj","harish","anita","sohail","rahul","deepak","rajesh","gurpreet"}
+black_hat_candidates={"priyan","deepak","harish","anita","rahul","rajesh"}
+red_shoes_candidates={"arjun","pankaj","priyan","rahul","gurpreet"}
+s1=black_hat_candidates.intersection(red_shoes_candidates)
+print(s1)
+print( )
+for e in s1:
+    print(e)
+print( )
+
+n=int(input("enter the sum of dice numbers"))
+s=set()
+for i in range(1,7):
+    for j in range(1,7):
+        if i+j==n:
+            s1.add((i,j))
+print(s1)
 
 
 
