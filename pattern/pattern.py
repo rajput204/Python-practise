@@ -110,3 +110,61 @@ for i in range(1,5):
 # * * *   * * * 
 # * *       * * 
 # *           * 
+
+for i in range(1,4):
+    for j in range(1,2*i):
+        print( "*",end=" ")
+    else:
+        print( )
+print( )
+
+
+
+for i in range(1,6):
+    for j in range(1,5):
+        if  (i==1 or j==4) or (i==5 or j==4)  or (i==3 or j==4) :
+          print("*",end=" ")
+    else:
+        print( )
+print( )
+
+#output:-
+# * * * *
+# *
+# * * * *
+# *
+# * * * *
+
+
+for i in range(1,8):
+    for j in range(1,5):
+        if (i==1 or j==4) or(i==4 or j==4):
+            print("*",end=" ")
+    else:
+        print( )
+print ( )
+
+#output:-
+# * * * *
+# *
+# *
+# * * * *
+# *
+# *
+# *
+
+for i in range(1,7):
+    for j in range(1,6):
+        if (i==6 or j==5):
+            print("*",end=" ")
+    else:
+        print( )
+print( )
+
+#output:-
+# *
+# *
+# *
+# *
+# *
+# * * * * *
