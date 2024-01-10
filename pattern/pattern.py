@@ -168,3 +168,80 @@ print( )
 # *
 # *
 # * * * * *
+
+for i in range(1,6):
+    for j in range(1,5):
+        if (j==1 or j==4  or i==3)  :
+            print("*",end=" ")
+        else:
+          print(" " ,end=" ")
+    print( )
+
+#output:-
+# *     *
+# *     *
+# * * * *
+# *     *
+# *     *
+    
+
+for i in range(1,6):
+    for j in range(i+1):
+        if j==i or i==1 or i==2 or i==3 or j==2:
+            print("*",end=' ')
+    else:
+        print(" ",end=' ')
+    print( )
+#output:-
+# *     
+# * *
+# * * *
+# * * * *
+# * *
+# * *
+count=0   
+for i in range(1,5):
+    for j in range(1,5):
+        print( chr(65+count),end=" ")
+        count+=1
+    print( )
+#output:-
+# A B C D
+# E F G H
+# I J K L
+# M N O P
+
+for i in range(0,6):
+    for j in range(0,5):
+        print(chr(65+i),end=" ")
+    print( )
+print( )
+#output:-
+# A A A A A
+# B B B B B
+# C C C C C
+# D D D D D
+# E E E E E
+# F F F F F
+for i in range(0,5):
+    for j in range(0,5):
+        print(chr(65+j),end=" ")
+    print( )
+#output:-
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E
+# A B C D E
+
+for i in range(1,6):
+    for j in range(i):
+        print(chr(65+j),end=" ")
+    print( )
+print( )
+#output:-
+# A
+# A B
+# A B C
+# A B C D
+# A B C D E
