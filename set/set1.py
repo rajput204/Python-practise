@@ -40,12 +40,12 @@ for e in s1:
 print( )
 
 n=int(input("enter the sum of dice numbers"))
-s=set()
+p=set()
 for i in range(1,7):
     for j in range(1,7):
         if i+j==n:
-            s1.add((i,j))
-print(s1)
+            p.add((i,j))
+print(p)
 
 
 
