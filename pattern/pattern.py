@@ -245,3 +245,10 @@ print( )
 # A B C
 # A B C D
 # A B C D E
+
+height=int(input("enter the height"))
+width=int(input("enter the width"))
+for i in range(height):
+     for j in range(width):
+          print((i*width+j)%10,end='')
+print( )
